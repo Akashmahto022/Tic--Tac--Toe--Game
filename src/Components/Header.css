@@ -1,0 +1,108 @@
+.header{
+    background-color: rgb(254, 254, 254);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* padding: 20px; */
+    /* margin: 10px; */
+}
+
+.logo{
+    padding-right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.logo img{
+    width: 100px;
+    object-fit: contain;
+}
+
+.plus img{
+    width: 10px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    border-color: #FCB941;
+
+}
+
+.input input{
+    border: 2px solid #FCB941;
+    /* outline: 2px; */
+    width: 36vw;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+
+.input .MuiSvgIcon-root{
+    color: #ffffff;
+    padding: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color:#FCB941;
+    border: 2px solid #FCB941;
+    margin: -2px;
+}
+
+.login button{
+    background-color: #FCB941;
+    color: white;
+    border: 2px solid #FCB941;
+    width: 9vw;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    padding: 9px;
+    border-radius: 3px;
+    font-weight: bold;
+
+
+}
+
+.wishlist .MuiSvgIcon-root{
+    display: flex;
+    align-items: center;
+    color: #FCB941;
+}
+.wishlist{
+    display: flex;
+    align-items: center;
+    color: #777777;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.more{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+
+.more span{
+    color: #777777;
+    font-weight: 600;
+
+}
+
+.more .MuiSvgIcon-root{
+    color: #FCB941;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    color: #FCB941;
+}
+
+.cart .MuiSvgIcon-root{
+    color: #FCB941;
+    cursor: pointer;
+}
