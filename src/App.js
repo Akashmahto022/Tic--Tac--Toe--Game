@@ -1,13 +1,13 @@
-// import './App.css';
-
-import Header from "./Components/Header";
+import './App.css';
+import Board from './Components/Board';
+// import Game from './Components/Game';
 
 function App() {
   return (
-    <div className="App">
-      
-      <Header/>
-    </div>
+    <>
+      <Board/>
+      {/* <Game/> */}
+    </>
   );
 }
 
